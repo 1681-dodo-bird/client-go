@@ -14,7 +14,7 @@ require (
 	github.com/kubernetes-csi/external-snapshotter/v2 v2.1.1
 	github.com/onsi/ginkgo v1.12.1
 	github.com/onsi/gomega v1.10.1
-	github.com/openshift/client-go v0.0.0
+	github.com/openshift/client-go v0.0.0-20191125132246-f6563a70e19a
 	github.com/pborman/uuid v1.2.0
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.19.0-rc.2
@@ -31,7 +31,6 @@ replace (
 	github.com/go-kit/kit => github.com/go-kit/kit v0.3.0
 	github.com/googleapis/gnostic => github.com/googleapis/gnostic v0.3.1
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20191219222812-2987a591a72c
-	github.com/openshift/client-go => github.com/openshift/client-go v0.0.0-20191125132246-f6563a70e19a
 	github.com/operator-framework/operator-lifecycle-manager => github.com/operator-framework/operator-lifecycle-manager v0.0.0-20190128024246-5eb7ae5bdb7a
 	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.4
 
